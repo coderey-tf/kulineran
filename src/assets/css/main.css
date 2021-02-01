@@ -19,3 +19,15 @@
 .card-product {
   border-radius: 10px;
 }
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb-item.active {
+  font-weight: bold;
+}
+
+.img-fluid {
+  border-radius: 20px;
+}

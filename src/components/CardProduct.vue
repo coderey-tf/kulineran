@@ -10,8 +10,8 @@
     <div class="card-body">
       <h5 class="card-title">{{ product.nama }}</h5>
       <p class="card-text">Harga : {{ product.harga }}</p>
-      <a href="#" class="btn btn-success"
-        ><b-icon-cart class="mr-2"></b-icon-cart>Pesan</a
+      <router-link :to="'Foods/' + product.id" href="#" class="btn btn-success"
+        ><b-icon-cart class="mr-2"></b-icon-cart>Pesan</router-link
       >
     </div>
   </div>
